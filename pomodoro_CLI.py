@@ -2,7 +2,7 @@ import time
 
 def work_countdown(seconds):
     while seconds > 0:
-        print(f'\rWork | {seconds // 60:02}:{seconds % 60:02}', end='', flush=True)
+        print(f'\rWork | Time remaining : {seconds // 60:02}:{seconds % 60:02}', end='', flush=True)
         time.sleep(1)
         seconds -= 1
     print("Work finished")
@@ -10,7 +10,7 @@ def work_countdown(seconds):
 
 def break_countdown(seconds):
     while seconds > 0:
-        print(f'\rBreak | {seconds // 60:02}:{seconds % 60:02}', end='', flush=True)
+        print(f'\rBreak | Time remaining : {seconds // 60:02}:{seconds % 60:02}', end='', flush=True)
         time.sleep(1)
         seconds -= 1
     print("Break finished")
