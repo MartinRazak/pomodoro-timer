@@ -17,6 +17,7 @@ I have made 2 versions, one CLI to get things started. And then I experimented w
   Short breaks between sessions
 - Long break after 4 Pomodoro cycles
 - Automatic cycle looping
+- Updated CLI formatting
 
 ---
 
