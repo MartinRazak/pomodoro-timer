@@ -25,7 +25,7 @@ def keep_going():
 cycle = 0
 
 while True:
-    cycle += work_countdown(300)
+    cycle += work_countdown(3000)
     print(f"Pomodoro {cycle} completed")
     if cycle == 4:
         print('Long break time!')
