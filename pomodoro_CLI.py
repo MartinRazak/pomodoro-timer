@@ -28,7 +28,7 @@ while True:
     cycle += work_countdown(3000)
     print(f"Pomodoro {cycle} completed")
     if cycle == 4:
-        print('Long break time!')
+        print('Extended break time!')
         break_countdown(10)
         cycle = 0
     else:
