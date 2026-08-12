@@ -16,7 +16,7 @@ def break_countdown(seconds):
     print("Break finished")
 
 def keep_going():
-    decision = input('Do you want to start the next Pomodoro? ').lower()
+    decision = input('Start next Pomodoro? ').lower()
     while decision not in ('y', 'n'):
         print('Write y or n brochacho')
         decision = input('Start next Pomodoro? ').lower()
