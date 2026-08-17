@@ -25,6 +25,7 @@ def keep_going():
 cycle = 0
 
 while True:
+    print("Welcome to the pomodoro CLI")
     cycle += work_countdown(3000)
     print(f"Pomodoro {cycle} completed")
     if cycle == 4:
