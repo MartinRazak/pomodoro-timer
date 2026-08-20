@@ -18,7 +18,7 @@ I have made 2 versions, one CLI to get things started. And then I experimented w
 - Long break after 4 Pomodoro cycles
 - Automatic cycle looping
 - Updated CLI formatting
-- Variable timer
+- Countdown ajustments
 ---
 
 ## How it works
