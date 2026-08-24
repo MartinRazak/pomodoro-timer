@@ -19,7 +19,7 @@ def keep_going():
     decision = input('Start next Pomodoro? ').lower()
     while decision not in ('y', 'n'):
         print('Write y or n brochacho')
-        decision = input('Start next Pomodoro? ').lower()
+        decision = input('Start the next Pomodoro? ').lower()
     return decision
 
 cycle = 0
