@@ -30,11 +30,11 @@ while True:
     print(f"Pomodoro {cycle} completed")
     if cycle == 4:
         print('Extended break time!')
-        break_countdown(10)
+        break_countdown(15)
         cycle = 0
     else:
         print('Short break time!')
-        break_countdown(3)
+        break_countdown(5)
     answer = keep_going()
     if answer == 'n':
         break
