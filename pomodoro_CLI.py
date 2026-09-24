@@ -19,14 +19,14 @@ def keep_going():
     decision = input('Start next Pomodoro? ').lower()
     while decision not in ('y', 'n'):
         print('Write y or n')
-        decision = input('Start next Pomodoro?').lower()
+        decision = input('Start the next Pomodoro?').lower()
     return decision
 
 cycle = 0
 
 while True:
     print("Welcome to the pomodoro CLI")
-    cycle += work_countdown(2500)
+    cycle += work_countdown(3500)
     print(f"Pomodoro {cycle} completed")
     if cycle == 4:
         print('Extended break time!')
